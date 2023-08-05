@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@ibedwi/figma-react-tailwind-webpack-plugin-starter",
+  "version": "0.1.0",
+  "description": "Your Figma Plugin",
+  "main": "./dist/code.js",
+  "scripts": {
+    "build:watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "author": "Ibe Dwi",
+  "license": "MIT",
+  "dependencies": {
+    "@xstate/react": "^3.2.2",
+    "react-icons": "^4.10.1",
+    "xstate": "^4.38.2"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.72.0",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss": "^8.4.27",
+    "postcss-loader": "^7.3.3",
+    "react": "^18.2.0",
+    "react-dev-utils": "^12.0.1",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

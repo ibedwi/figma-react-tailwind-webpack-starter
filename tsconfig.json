@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "target": "es6",
+    "lib": ["es2016", "dom"],
+    "jsx": "react",
+    "strict": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
