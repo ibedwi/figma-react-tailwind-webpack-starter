@@ -43,3 +43,7 @@ yarn build:watch
 ```
 
 This will run webpack in the development mode.
+
+# Reference
+
+I used this wonderful template [https://github.com/nirsky/figma-plugin-react-template](https://github.com/nirsky/figma-plugin-react-template) as the main reference for the `webpack` and `react` setup.
